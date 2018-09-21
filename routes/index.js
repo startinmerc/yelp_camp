@@ -14,7 +14,7 @@ router.get('/', function(req,res){
 
 // GET register form
 router.get("/register", function(req, res) {
-    res.render("register");
+    res.render("register", {page: "campgrounds"});
 });
 // POST user signup
 router.post("/register", function(req, res) {
@@ -32,7 +32,7 @@ router.post("/register", function(req, res) {
 });
 // GET login form
 router.get("/login", function(req, res) {
-   res.render("login"); 
+   res.render("login", {page: "login"}); 
 });
 // POST login logic
 router.post("/login", passport.authenticate("local",

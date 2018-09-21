@@ -11,7 +11,7 @@ router.get('/', function(req,res){
         console.log(err);
         } else {
             // render as page, sourcing from DB instead of array in v1
-            res.render('campgrounds/index', {campgrounds: allCampgrounds});
+            res.render('campgrounds/index', {campgrounds: allCampgrounds, page: "campgrounds"});
         }
     });
 });
