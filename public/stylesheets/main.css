@@ -1,9 +1,18 @@
+body { 
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url(http://i.imgur.com/K3mPv14.jpg);
+}
+
 .thumbnail img {
     width: 100%;
 }
 
 .thumbnail {
     padding: 0;
+    background-color: white;
+    background-color: rgba(255,255,255,0.8);
 }
 
 .thumbnail .caption-full {
@@ -18,6 +27,7 @@
     font-size: 1.5em;
 }
 
-.navbar {
-    padding: 0;
+.jumbotron {
+    background-color: white;
+    background-color: rgba(255,255,255,0.8);
 }
