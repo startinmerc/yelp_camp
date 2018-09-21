@@ -13,3 +13,11 @@
 .delete-form {
     display: inline;
 }
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar {
+    padding: 0;
+}
