@@ -1,8 +1,9 @@
 body { 
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: center;
   background-repeat: no-repeat;
   background-image: url(http://i.imgur.com/K3mPv14.jpg);
+  background-attachment: fixed;
 }
 
 .thumbnail img {
